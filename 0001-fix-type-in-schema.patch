@@ -1,0 +1,25 @@
+From bf439ded92db51e6198ae5f50ac811976c6aa25f Mon Sep 17 00:00:00 2001
+From: fengchuxiao <chuxiaof@uchicago.edu>
+Date: Sun, 3 Jul 2022 00:24:07 -0500
+Subject: [PATCH] fix type in schema
+
+---
+ src/Graph.tsx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 90d56dc..e278dc0 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -28,7 +28,7 @@ class Graph extends Component<IProps, {}> {
+       ratio: 'float',
+       timestamp: 'date',
+       upper_bound: 'float',
+-      lower_bount: 'float',
++      lower_bound: 'float',
+       trigger_alert: 'float',
+     };
+ 
+-- 
+2.32.0 (Apple Git-132)
+
